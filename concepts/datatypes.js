@@ -11,5 +11,7 @@ console.log(typeof null);
 console.log(typeof undefined);
 console.log([1,2,3]);
 console.log(typeof [1,2,3]);
+console.log({ nombre: "Carlos"})
+console.log(typeof{ nombre: "Carlos"})
 
 
