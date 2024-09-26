@@ -13,7 +13,7 @@ operation(12, 5, suma);
 operation(12, 5, resta);
 operation(12, 5, (a, b)=>a*b);
 
-const cars = ['vocho','athos','pointer','tsuru','bmw']
+const car = ['vocho','athos','pointer','tsuru','bmw']
 cars.forEach(car=>{console.log(car)});
 let filtrados=cars.filter(car => car === 'tsuru');
 console.log(filtrados);
@@ -71,5 +71,5 @@ const youngers2= ages.some(age=>age<18);
 console.log(olders2);
 console.log(youngers2);
 
-const numbers=[1,2,3,4,5,6,7,8,9,10];
-consts squa=numbers.map(num=>num*num);)
+const number=[1,2,3,4,5,6,7,8,9,10];
+const squa=numbers.map(num=>num*num);

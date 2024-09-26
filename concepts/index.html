@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bola Magica</title>
+    <title>Document</title>
     <style>
-       body{
+        body{
             margin: 0;
             padding: 0;
             width: 100vw;
@@ -15,17 +15,17 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             background-color: antiquewhite ;
         }
-        main{
-            width: 400px;
-            height: 400px;
-            border-radius: 50%;
-            border: 1px solid black;
-            display: grid;
-            place-items: center;
+        .content{
+            width: 60%;
+            height: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
             text-align: center;
-            background-color: #c5d9ff;
-            cursor: pointer;
         }
+        .row{ width: 100%;}
+        .users{ display: flex;}
+        .users div{width: 50%;}
         button{
             width: 200px;
             height: 50px;
@@ -41,11 +41,8 @@
     </style>
 </head>
 <body>
-    <main> 
-        <h1> PREGUNTA A LA CARACOLA MÁGICA</h1>
-    </main>
-    <script src="./eightball.js"></script>
-    <a href="./index.html"><button>INICIO</button> </a>
+    <h1>FUNDAMENTOS DE JAVASCRIPT</h1>
+    <a href="./eightball.html"><button>CARACOLA MAGICA </button> </a>
     <a href="./prs.html"><button>PIEDRA, PAPEL Y TIJERA</button></a>
 </body>
 </html>
